@@ -11,7 +11,7 @@ public class GuessingGameGUI extends JFrame {
     private JButton guessButton;
     private int secretNumber;
     private int guessCount;
-    private int maxGuesses = 7;
+    private int maxGuesses = 7; // Количество попыток
 
     public GuessingGameGUI() {
         super("Угадай число");
